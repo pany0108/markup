@@ -1,0 +1,58 @@
+/****************************************************************************** 
+  Footer
+******************************************************************************/
+footer {
+  padding: 34px 200px 75px;
+  color: #393939;
+  background: #1a2027;
+}
+footer .container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+footer .logo img {
+  width: 100%;
+  vertical-align: bottom;
+}
+footer .copy {
+  margin-left: 50px;
+  font-size: 16px;
+  line-height: calc(26 / 18);
+  color: #b1b8c0;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  footer {
+    padding: 20px 0 45px;
+  }
+  footer .container {
+    max-width: calc(100% - 40px);
+  }
+  footer .logo {
+    width: 90px;
+  }
+  footer .copy {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 20px 0 35px;
+  }
+  footer .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .logo {
+    width: 91px;
+  }
+  footer .copy {
+    margin-top: 3px;
+    margin-left: 0;
+    font-size: 10px;
+  }
+}
